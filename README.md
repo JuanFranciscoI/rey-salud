@@ -27,6 +27,7 @@ Proyecto final de **Programación II** (Tecnicatura Superior en Desarrollo de So
 
 ## Documentación
 
+- [Informe del proyecto](docs/Informe_Practica_Profesional_II.pdf) (Práctica Profesionalizante II, prof. Jorge A. Perusini): situación actual, objetivos, alcance, requisitos y especificación de casos de uso. Versión editable en [.docx](docs/Informe_Practica_Profesional_II.docx).
 - [Requerimientos y validación final](docs/Requerimientos_ReySalud.pdf): funcionales, no funcionales, matriz de trazabilidad y auditoría.
 - [Diagrama de casos de uso](docs/diagramas/Diagrama_Casos_de_Uso_ReySalud_Actualizado.png)
 - [Diagrama de clases](docs/diagramas/Diagrama_de_Clases_ReySalud_Actualizado.png)
