@@ -16,6 +16,21 @@ Proyecto final de **Programación II** (Tecnicatura Superior en Desarrollo de So
 | **Historia clínica** | Evolución por turno con diagnósticos y medicamentos filtrados por especialidad, más adjuntos |
 | **Reportes** | Actividad clínica e historia clínica a PDF; turnos y estadísticas a XLSX |
 
+## Capturas
+
+Todas con la base de ejemplo (datos inventados).
+
+| | |
+|---|---|
+| **Inicio de sesión** (roles: Administrador, Médico, Secretaría) | **Pacientes**: búsqueda, paginación y alta/edición |
+| ![Login](docs/capturas/login.png) | ![Pacientes](docs/capturas/pacientes.png) |
+| **Turnos**: calendario semanal por especialidad y médico | **Historia clínica** de un paciente |
+| ![Turnos](docs/capturas/turnos.png) | ![Historia clínica](docs/capturas/historia_clinica.png) |
+| **Historia clínica completa**: elegir qué evoluciones exportar | **Reportes**: actividad clínica filtrada por fecha |
+| ![Historia completa](docs/capturas/historia_completa.png) | ![Reportes](docs/capturas/reportes.png) |
+
+El reporte exportado a PDF: [ver captura](docs/capturas/reporte_pdf.png).
+
 ## Decisiones técnicas destacadas
 
 - **Reglas críticas en tres capas.** Un turno Atendido es definitivo: lo bloquea la interfaz, lo valida el DAO y lo impide un **trigger de PostgreSQL**. Aunque alguien saltee la app, la base no lo deja.
